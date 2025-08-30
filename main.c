@@ -24,7 +24,7 @@ int main() {
 
     fprintf(fp, "Disks,Time(seconds)\n"); // CSV header
 
-    for (disk_sizes = 20; disk_sizes <= 25; disk_sizes++) {
+    for (disk_sizes = 2; disk_sizes <= 45; disk_sizes++) {
         start = clock();
         towerOfHanoi(disk_sizes, 'A', 'C', 'B');
         end = clock();
